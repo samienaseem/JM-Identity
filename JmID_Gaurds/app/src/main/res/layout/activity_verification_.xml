@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mountain_silhouette_night_tourists_mountaineers_117113_320x480"
+    tools:context=".verification_Activity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/textboxes"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="JMI ID number"
+
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="73dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_below="@+id/editText"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_camera_alt_black_24dp" />
+
+    <TextView
+        android:id="@+id/textViewn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_below="@+id/editText"
+        android:textSize="18sp"
+        android:layout_marginTop="300dp"
+        android:layout_toLeftOf="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>

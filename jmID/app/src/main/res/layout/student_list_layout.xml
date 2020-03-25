@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Namestd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="Name"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:layout_toRightOf="@+id/imageshow" />
+
+
+    <TextView
+        android:id="@+id/idStd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="ID"
+        android:layout_toRightOf="@+id/imageshow"
+        android:layout_below="@+id/Namestd"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/circle"
+            android:layout_alignParentRight="true"
+            android:padding="4dp"
+            android:id="@+id/dotbox"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            >
+
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="12dp"
+            android:id="@id/imageshow"
+            app:cardCornerRadius="50dp"
+            android:layout_margin="4dp"
+            android:layout_marginRight="10dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageshow1"
+                android:scaleType="centerCrop"
+               />
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_margin="4dp"-->
+
+
+
+
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

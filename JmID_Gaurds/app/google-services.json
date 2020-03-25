@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "488312633857",
+    "firebase_url": "https://jm-identity.firebaseio.com",
+    "project_id": "jm-identity",
+    "storage_bucket": "jm-identity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488312633857:android:4ddbe7ab60257036",
+        "android_client_info": {
+          "package_name": "jm_id.com.samar.projectjmi_id.jm_id_gaurds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488312633857-b6f7e7qgukpdi2ave7keanfnvfp72tti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbbtQgTUZ5ReiqnDwPpKUNf9NP-TNL6JU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

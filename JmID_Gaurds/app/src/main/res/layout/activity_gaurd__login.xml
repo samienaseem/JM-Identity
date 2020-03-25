@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/child_window_silhouette_131574_960x544"
+    tools:context=".Gaurd_Login">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#fff"
+
+
+
+
+        android:id="@+id/one"
+
+
+
+
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/gID"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:hint="Enter-ID"
+            android:inputType="number"
+
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/two"
+        android:layout_below="@+id/one"
+
+
+        app:passwordToggleEnabled="true"
+        android:textColorHint="#fff"
+        android:layout_marginTop="8dp"
+
+        android:layout_centerVertical="true"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/gpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gID"
+            android:inputType="textPassword"
+
+
+
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:textColor="#fff"
+
+
+            android:textColorHint="#fff"
+
+            android:textSize="16sp"></android.support.design.widget.TextInputEditText>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/three"
+        android:layout_below="@+id/two"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:textColorHint="#fff"
+        android:layout_alignParentRight="true"
+
+
+
+
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/gGate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gpass"
+
+            android:inputType="number"
+            android:drawablePadding="8dp"
+            android:textColor="#fff"
+            android:hint="Gate No:-"
+
+
+            android:textColorHint="#fff"
+            android:textSize="16sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="241dp"
+        android:layout_height="90dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="45dp"
+        app:srcCompat="@drawable/textfx" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_alignTop="@+id/one"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@mipmap/id3" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/two"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@mipmap/key3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="31dp"
+        android:layout_height="32dp"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_alignBottom="@+id/three"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        app:srcCompat="@mipmap/gatekey3" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/login" />
+
+</RelativeLayout>

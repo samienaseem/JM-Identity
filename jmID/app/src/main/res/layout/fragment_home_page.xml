@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:padding="15dp"
+        android:id="@+id/datehai"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+
+        android:textSize="18dp"
+        android:textColor="#000"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:text="Total Students:"
+        android:layout_below="@+id/datehai"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:padding="15dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="18sp"
+        android:id="@+id/count"
+        android:textColor="#000"
+        android:layout_below="@+id/datehai"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_toRightOf="@+id/total"/>
+
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Recommanded max Security at Gate No.:"
+        android:layout_below="@+id/total"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:padding="15dp"
+        android:textColor="#000"/>
+
+</RelativeLayout>
